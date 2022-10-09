@@ -1,0 +1,6 @@
+change directory cs
+ls-list the files in directory
+mkdir folder name  - to create file
+touch file name - to create file
+start file name - open the file
+git init - folder to git depository -
