@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    int notlength;
+    char sum;
+    scanf("%d",&notlength);
+    char string[100];
+    scanf("%s",string);
+    int i,a;
+    for(i=0;i<strlen(string);i++)
+    {
+        
+        //if(string[i]==1||string[i]==2||string[i]==3||string[i]==4||string[i]==5||string[i]==6||string[i]==7||string[i]==8||string[i]==9)
+        if(string[i]>='0' && string[i]<='9')
+        {
+            printf("%c",string[i]);
+        }
+        else 
+        {
+            sum=(string[i]+notlength);
+            printf("%c",sum);
+        }
+    }
+    return 0;
+    
+}
+
